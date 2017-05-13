@@ -1,0 +1,33 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <Button
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_margin="16dp"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Change Date" />
+    <TextView
+        android:textColor="#525252"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:text="Current Date:" />
+
+
+
+
+
+</LinearLayout>
